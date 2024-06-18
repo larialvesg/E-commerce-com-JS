@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bem vindo ao Pages!</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="./scripts/orders.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div id="barra-de-informacoes">
+        <div class="container-1">
+          <p class="titulo-informativo">Valinhos - SP</p>
+          <p class="titulo-informativo">
+            “Ler mudou, muda e continuará mudando o mundo” - Enviamos para o
+            Brasil inteiro!
+          </p>
+          <p class="titulo-informativo">Precisa de ajuda?</p>
+        </div>
+      </div>
+
+      <div id="topo-cabecalho" class="container-1">
+        <div class="header-logo">
+          <img src="images/header_logo-removebg-preview 1.png" alt="Pages" />
+        </div>
+
+        <div class="search-bar">
+          <i class="bi bi-lupa"></i>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Pesquise no Pages!"
+          />
+        </div>
+
+        <div class="header-top-icons">
+          <i class ="bi bi-heart"></i>
+          <a href="./adm.html">
+              <i class ="bi bi-person"></i>
+          </a>
+         
+          <a href="./carrinho.html">
+              <i class = "bi bi-cart"></i>
+          </a>
+          
+          </div>
+
+  </div>
+
+  <nav class = "header-navbar" id="navbar">
+      <ul class = "container-1">
+          <li><a href="./produtos.html">Livros</a></li>
+          <li><a href="./produtos.html">Mais Vendidos</a></li>
+          <li><a href="./produtos.html">Ofertas Imperdíveis</a></li>
+          <li><a href="./produtos.html">Categorias</a></li>
+      </ul> 
+  </nav>
+    </header>
+  
+  <main class="product main-content container">
+    <div class="product text-container">
+      <h2 class="main-text">Pedidos</h2>
+      <p>Relaçao de pedidos realizados:</p>
+    </div>
+
+    <section class="product text-container">
+      <div id="orders">
+        <div class="col-1" id="order-list">
+          
+
+        </div>
+
+        <div class="col-2">
+
+        
+
+          <button class="button checkout_btn" id="export-button">EXPORTAR</button>
+          
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <div class="linha-rodape"></div>
+  <footer>
+      <div class="container-1">
+     <div class="container-rodape">
+      <div class="footer-col1">
+          <div class="livro-rodape">
+              <img src="images/imagemlivrorodape.png" alt="Imagem-Rodape">
+          </div>
+          
+              <p class="texto-sobre-leitura">“Ler um livro é para o bom leitor conhecer a pessoa e o modo de pensar de alguém que lhe é estranho. É procurar compreendê-lo e, sempre que possível, fazer dele um amigo” - Hermann Hesse
+      </div>
+      <div class="footer-col2">
+          <div class="icons-rodape">
+              <i class ="bi bi-instagram"></i>
+              <i class ="bi bi-youtube"></i>
+              <i class = "bi bi-twitter"></i>
+              <i class = "bi bi-facebook"></i>
+          </div>
+          <div class="baixe-apps">
+              <div class="app">
+                  <p class="texto-para-baixar-app"> Baixe nosso app!
+                      <div class="app-download">
+                          <img src="./images/applestore.png" alt="">
+                          <img src="./images/playstore.png" alt="">
+                      </div>
+
+
+              </div>
+              
+          </div>
+
+      </div>
+      <div class="footer-col3">
+              <a href="">FAQ</a>
+              <a href="">Quem Somos</a>
+              <a href="">Fale Conosco</a>
+              <a href="">Prazo de Envio</a>
+              <a href="">Politica de privacidade</a>
+      </div>
+     </div>
+
+  </footer>
+</body>
+</html>

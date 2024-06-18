@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <style>
+    .container {
+      width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+  <body>
+    <div class="container">
+        <div class="contato">
+      <form action="" id="contato">
+        <h2>Entre em contato</h2>
+        <label for="e-mail">email: </label>
+        <input
+          type="email"
+          name="e-mail"
+          id="email"
+          placeholder="Digite seu email"
+        />
+
+        <label for="password">senha: </label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Digite sua senha: "
+        />
+
+        <label for="nascimento">digite sua data de nascimento: </label>
+        <input
+          type="date"
+          name="nascimento"
+          id="nascimento"
+          placeholder="Digite seu nascimento: "
+        />
+    </div>
+        <br>
+        <div class="acordo">
+            <h2>Estou de acordo</h2>
+        <input type="checkbox" name="aceito" id="aceito">
+        <label for="aceito" >De acordo</label>
+        <input type="checkbox" name="newsletter" id="newsletter">
+        <label for="aceito">Cadastrar na newsletter</label>
+
+        <input type="radio" name="pagamento" id="credito">
+        <label for="pagamento">Credito</label>
+        <input type="radio" name="pagamento" id="debito">
+        <label for="pagamento">Debito</label>
+    </div>
+
+    <div class="outros">
+        <h2>Outros</h2>
+        <label for="cor">Selecione uma cor:</label>
+        <input type="color" name="cor " id="cor">
+
+        <label for="faixa">Faixa de valores:</label>
+        <input type="range" name="faixa" id="faixa" step="1" min="1" max="10">
+
+        <select name="estado" id="estado">Selecione...
+            <option value="São Paulo">SP</option>
+            <option value="Minas Gerais">MG</option>
+            <option value="Espirito Santo">ES</option>
+        </select>
+    </div>
+
+      </form>
+    </div>
+  </body>
+</html>
